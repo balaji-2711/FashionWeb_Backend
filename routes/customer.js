@@ -11,7 +11,7 @@ const { customerModel } = require("../schema/customerSchema");
 const { hashPassword, hashCompare, createToken } = require("../config/auth");
 
 //frontend url
-let url = "http://localhost:3000";
+let url = "https://sunny-crumble-a6000a.netlify.app";
 
 //to connect to db
 mongoose.connect(dbUrl);
